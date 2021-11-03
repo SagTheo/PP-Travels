@@ -17,3 +17,4 @@ To do:
 Difficulties encountered:
 
 -setting the background image on the index page for each div, so that it fills its parent properly
+    -sorted out: used the background-image CSS property along with the background-size CSS property

@@ -3,21 +3,39 @@
 }
 
 .container {
-    margin: 50% auto;
+    margin: 40% auto;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     width: 70%;
     height: 60vh;
 }
 
+/* Style for the cards */
 .container div {
     margin: 0.3em;
-    border: 1px black solid;
+    padding: 3px;
     border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
+    color: white;
+    font-size: 1.5em;
+    text-align: end;
     box-shadow: 2px 2px 7px rgb(148, 146, 146);
 }
 
+.container div:hover {
+    cursor: pointer;
+}
+
+.australia {
+    background-image: url('australia.jpg');
+    background-size: 100% 100%;
+}
+
+.newyork {
+    background-image: url('newyork.jpg');
+    background-size: 100% 100%;
+}
+
+.italy {
+    background-image: url('italy.jpg');
+    background-size: 100% 100%;
+}
