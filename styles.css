@@ -11,9 +11,9 @@
 }
 
 /* Style for the cards */
-.container div {
-    margin: 0.3em;
-    padding: 3px;
+.australia, .newyork, .italy {
+    height: 90%;
+    padding: 5px;
     border-radius: 5px;
     color: white;
     font-size: 1.5em;
@@ -21,8 +21,8 @@
     box-shadow: 2px 2px 7px rgb(148, 146, 146);
 }
 
-.container div:hover {
-    cursor: pointer;
+.container a {
+    text-decoration: none;
 }
 
 .australia {
