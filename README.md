@@ -2,6 +2,9 @@
 
 This project is a presentation website that deals with my travel experiences 
 
+-> This project will be pretty much HTML and CSS only.
+   Goal is to focus on the layout and design of the website to hone my HTML and CSS skills.
+
 To do:
 
 -create the index page that directs to each page
@@ -12,7 +15,6 @@ To do:
 
 --> Website has to be responsive 
     -start mobile first and move on to desktop
-
 
 Difficulties encountered:
 
