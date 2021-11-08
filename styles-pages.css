@@ -22,3 +22,88 @@ section div {
 section div, section h2 {
     color: midnightblue;    
 }
+
+/* Pictures */
+.img {
+    height: 15rem;
+    background-size: 100% 100%;
+    border: none;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+/* Australia page */
+.adelaide {
+    background-image: url('images-australia/adelaide.jpg');
+}
+
+.brisbane {
+    background-image: url('images-australia/brisbane.jpg');
+}
+
+.karijini {
+    background-image: url('images-australia/karijini.jpg');
+}
+
+.melbourne {
+    background-image: url('images-australia/melbourne.jpg');
+}
+
+.perth {
+    background-image: url('images-australia/perth.jpg');
+}
+
+.sydney {
+    background-image: url('images-australia/sydney.jpg');
+}
+
+.wellington {
+    background-image: url('images-australia/wellington.jpg');
+}
+
+/* New York page */
+.brooklynbridge {
+    background-image: url('images-newyork/brooklynbridge.jpg');
+}
+
+.grandcentral {
+    background-image: url('images-newyork/grandcentral.jpg');
+}
+
+.nycampus {
+    background-image: url('images-newyork/nycampus.jpg');
+}
+
+.nymetro {
+    background-image: url('images-newyork/nymetro.jpg');
+}
+
+.statueofliberty {
+    background-image: url('images-newyork/statueofliberty.jpg');
+}
+
+.timessquare {
+    background-image: url('images-newyork/timessquare.jpg');
+}
+
+/* Italy page */
+
+.florence {
+    background-image: url('images-italy/florence.jpg');
+}
+
+.genoa {
+    background-image: url('images-italy/genoa.jpg');
+}
+
+.monterosso {
+    background-image: url('images-italy/monterosso.jpg');
+}
+
+.rome {
+    background-image: url('images-italy/rome.jpg');
+}
+
+.venice {
+    background-image: url('images-italy/venice.jpg');
+}
