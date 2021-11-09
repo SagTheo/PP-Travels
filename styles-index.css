@@ -2,6 +2,14 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+header {
+    text-align: end;
+}
+
+header a img {
+    width: 10%;
+}
+
 .container {
     margin: 40% auto;
     display: grid;

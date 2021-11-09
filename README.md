@@ -13,7 +13,8 @@ To do:
 -create the page for Italy - done
 -create a link that redirects to the index page, on each page - done
 
--make a french version of the website --> toggle button on index page + each page
+-make a French version of the website --> toggle button on index page + each page - done
+    -rewrite the content of each page in French
 
 --> Website has to be responsive 
     -start mobile first and move on to desktop
