@@ -2,21 +2,37 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Header */
 header {
-    background-color: midnightblue;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    height: 2rem;
 }
+
 
 header h1 a {
-    color: whitesmoke;
+    color: midnightblue;
     text-decoration: none;
+    font-size: 1rem;
+    z-index: 1;
 }
 
+header a {
+    color: midnightblue;
+    width: 10%;
+    height: 100%;
+}
+
+.fr {
+    background-image: url('frflag.png');
+    background-size: 100% 100%;
+}
+
+/* Sections */
 section div {
     background-color: rgb(248, 248, 248);
-    border: 1px midnightblue solid;
     border-radius: 8px;
-    padding: 0 0.8em;
+    padding: 0.1rem 0.8rem;
 }
 
 section div, section h2 {

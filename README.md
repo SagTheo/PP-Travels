@@ -12,9 +12,8 @@ To do:
 -create the page for New York - done
 -create the page for Italy - done
 -create a link that redirects to the index page, on each page - done
-    -add some style to it
 
--make a french version of the website(toggle button on index page?)
+-make a french version of the website --> toggle button on index page + each page
 
 --> Website has to be responsive 
     -start mobile first and move on to desktop
