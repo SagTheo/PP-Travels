@@ -11,11 +11,11 @@ header a img {
 }
 
 .container {
-    margin: 40% auto;
+    margin: 20% auto;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     width: 70%;
-    height: 60vh;
+    height: 70vh;
 }
 
 /* Style for the cards */
@@ -31,6 +31,7 @@ header a img {
 
 .container a {
     text-decoration: none;
+    margin-bottom: 0.2rem;
 }
 
 .australia {
@@ -46,4 +47,40 @@ header a img {
 .italy {
     background-image: url('images-index/italy.jpg');
     background-size: 100% 100%;
+}
+
+@media (min-width: 426px) and (max-width: 768px)  {
+    header a img {
+        width: 6%;
+    }
+
+    .container {
+        margin: 15% auto;
+        width: 55%;
+        height: 95vh;
+    }
+
+    .australia, .newyork, .italy {
+        box-shadow: 4px 2px 10px rgb(148, 146, 146);
+    }
+}
+
+@media (min-width: 769px) /*and (max-width: 1024px)*/  {
+    header a img {
+        width: 5%;
+    }
+
+    .container {
+        margin: 12% auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: none;
+        width: 95%;
+        height: 40vh;
+    }
+
+    .container a {
+        margin-bottom: 0;
+        margin-right: 0.5rem;
+    }
 }
