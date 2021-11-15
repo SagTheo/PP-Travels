@@ -57,7 +57,7 @@ header a img {
     .container {
         margin: 15% auto;
         width: 55%;
-        height: 95vh;
+        height: 110vh;
     }
 
     .australia, .newyork, .italy {
@@ -65,22 +65,28 @@ header a img {
     }
 }
 
-@media (min-width: 769px) /*and (max-width: 1024px)*/  {
+@media (min-width: 769px)  {
     header a img {
         width: 5%;
     }
 
     .container {
-        margin: 12% auto;
+        margin: 15% auto;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: none;
         width: 95%;
-        height: 40vh;
+        height: 35vh;
     }
 
     .container a {
         margin-bottom: 0;
         margin-right: 0.5rem;
+    }
+}
+
+@media (min-width: 1025px) {
+    .container {
+        height: 40vh;
     }
 }

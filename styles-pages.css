@@ -126,3 +126,29 @@ section div, section h2 {
 .venice {
     background-image: url('images-italy/venice.jpg');
 }
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .flag {
+        width: 6%;
+    }
+
+    .img {
+        height: 25rem;
+    }
+}
+
+@media (min-width: 769px) {
+    .flag {
+        width: 4%;
+    }
+
+    .img {
+        height: 45rem;
+    }
+}
+
+@media (min-width: 1025px) {
+    .img {
+        height: 50rem;
+    }
+}
