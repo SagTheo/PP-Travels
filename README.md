@@ -19,6 +19,8 @@ To do:
 --> Website has to be responsive 
     -start mobile first and move on to desktop
 
+--> Make toggle buttons more obvious by adding description next to them + reorganise layout of pages for desktop versions
+
 Difficulties encountered:
 
 -setting the background image on the index page for each div, so that it fills its parent properly
