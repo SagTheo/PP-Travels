@@ -7,21 +7,32 @@ h1, h2 {
 }
 
 /* Header */
-header {
+header { 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+header div span {
+    font-size: xx-small;
+    text-align: end;
+    padding-right: 2px;
+}
+
+.translation {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: end;
 }
 
-.flag {
-    width: 10%;
+.translation .flag {
+    width: 40%;
 }
 
-.flag img {
+.translation .flag img {
     width: 100%;
 }
 
 h1 {
+    text-align: center;
     font-size: 1.5rem;
     margin-top: 0;
     margin-bottom: 0;
@@ -127,9 +138,22 @@ section div, section h2 {
     background-image: url('images-italy/venice.jpg');
 }
 
+
+/* Responsiveness */
+
+@media (min-width: 426px) {
+    .translation .flag {
+        width: 15%;
+    }
+
+    header div span {
+        font-size: small;
+    }
+}
+
 @media (min-width: 426px) and (max-width: 768px) {
-    .flag {
-        width: 6%;
+    header div span {
+        padding-top: 5px;
     }
 
     .img {
@@ -138,8 +162,8 @@ section div, section h2 {
 }
 
 @media (min-width: 769px) {
-    .flag {
-        width: 4%;
+    header div span {
+        padding-top: 10px;
     }
 
     .img {

@@ -6,8 +6,13 @@ header {
     text-align: end;
 }
 
+header img {
+    vertical-align: middle;
+}
+
 header a img {
     width: 10%;
+    vertical-align: middle;
 }
 
 .container {
