@@ -1,0 +1,82 @@
+.desktop {
+    display: none;
+}
+
+/* Pictures */
+
+.adelaide {
+    background-image: url('images-australia/adelaide.jpg');
+}
+
+.brisbane {
+    background-image: url('images-australia/brisbane.jpg');
+}
+
+.karijini {
+    background-image: url('images-australia/karijini.jpg');
+}
+
+.melbourne {
+    background-image: url('images-australia/melbourne.jpg');
+}
+
+.perth {
+    background-image: url('images-australia/perth.jpg');
+}
+
+.sydney {
+    background-image: url('images-australia/sydney.jpg');
+}
+
+.wellington {
+    background-image: url('images-australia/wellington.jpg');
+}
+
+
+/* Responsiveness */
+
+@media (min-width: 769px) {
+    .flex {
+        display: flex;
+    }
+
+    .flex p, .flex .img {
+        margin-top: 0;
+    }
+
+    .desktop {
+        display: block;
+        margin-right: 5px;
+    }
+
+    .no-desktop {
+        display: none;
+    }
+
+    .flex .img {
+        height: 15rem;
+        width: 100%;
+    }
+
+    .flex .karijini, .flex .melbourne, .flex .sydney {
+        width: 200%;
+    }
+}
+
+@media (min-width: 1025px) {
+    .flex .img {
+        width: 100%;
+    }
+
+    .flex .sydney, .flex .perth {
+        width: 80%;
+    }
+
+    .flex .wellington, .flex .brisbane {
+        width: 60%;
+    }
+
+    .flex .adelaide {
+        width: 50%;
+    }
+}

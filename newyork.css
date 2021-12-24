@@ -1,0 +1,70 @@
+.hideMobile {
+    display: none;
+}
+
+
+
+/* Pictures */
+
+.brooklynbridge {
+    background-image: url('images-newyork/brooklynbridge.jpg');
+}
+
+.grandcentral {
+    background-image: url('images-newyork/grandcentral.jpg');
+}
+
+.nycampus {
+    background-image: url('images-newyork/nycampus.jpg');
+}
+
+.nymetro {
+    background-image: url('images-newyork/nymetro.jpg');
+}
+
+.statueofliberty {
+    background-image: url('images-newyork/statueofliberty.jpg');
+}
+
+.timessquare {
+    background-image: url('images-newyork/timessquare.jpg');
+}
+
+
+
+/* Responsiveness */
+
+@media (min-width: 769px) {
+    .hideMobile {
+        display: block;
+        margin-top: 10%;
+        font-size: x-large;
+        font-weight: bold;
+        border: solid;
+        height: fit-content;
+        width: 50%;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    .spaceAround {
+        justify-content: space-around;
+    }
+
+    .flex .img {
+        height: 15rem;
+        width: 100%;
+    }
+
+    .flex .nycampus {
+        width: 230%;
+    }
+
+    .flex .statueofliberty, .flex .timessquare, .flex .nymetro, .flex .grandcentral, .flex .brooklynbridge {
+        width: 40%;
+    }
+}
