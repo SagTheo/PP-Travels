@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New York</title>
+    <link rel="stylesheet" href="newyork.css">
     <link rel="stylesheet" href="styles-pages.css">
 </head>
 <body>
@@ -29,14 +30,16 @@
     <section>
         <h2>What did I do there</h2>
         <div>
-           <p>I spent five months in New York on an international campus, to take English classes. I organised this trip 
-            thanks to an agency, EF(Education First), that specialises in sending foreigners abroad to learn another
-            language. To be honest, I didn't really need to take English classes given that my level had skyrocketed already
-            after spending a full year in an English-speaking country, even though there was still lots of room for 
-            improvement of course(and there still is). However it was one way to stay for some time in the US without
-            any problem.
-            </p>
-            <div class="img nycampus" title="Tarrytown"></div>
+            <div class="flex">
+                <p>I spent five months in New York on an international campus, to take English classes. I organised this trip 
+                thanks to an agency, EF(Education First), that specialises in sending foreigners abroad to learn another
+                language. To be honest, I didn't really need to take English classes given that my level had skyrocketed already
+                after spending a full year in an English-speaking country, even though there was still lots of room for 
+                improvement of course(and there still is). However it was one way to stay for some time in the US without
+                any problem.
+                </p>
+                <div class="img nycampus" title="Tarrytown"></div>
+            </div>
             <p>So I had daily classes, from Monday to Friday, all dealing with different topics. There was one about
                 crime and psychology for example, another one about New York's culture, one where we would discuss a given 
                 subject for an hour etc. I also had a main teacher, nearly everyday, who oriented his teaching towards
@@ -54,10 +57,24 @@
                 That was the place where parties where organised, every once in a while.
             </p>
             <p>And of course, I visited New York. The campus was actually located in Tarrytown, but the city that never sleeps 
-                was only one train ride away. I got to see the Statue of Liberty, <div class="img statueofliberty" title="Statue of Liberty"></div>
-                the Rockefeller Center, Times Square obviously, <div class="img timessquare" title="Times Square"></div>
-                the Brooklyn bridge, <div class="img brooklynbridge" title="Brooklyn Bridge"></div>
-                the 9/11 memorial, and all the very touristic but still awesome places 
+                was only one train ride away.
+            </p> 
+            <div class="flex no-margin">
+                <p>
+                   I got to see the Statue of Liberty 
+                </p>
+                <div class="img statueofliberty" title="Statue of Liberty"></div>
+            </div>
+            <div class="flex no-margin">
+                <p>Times Square obviously</p> 
+                <div class="img timessquare" title="Times Square"></div>
+            </div>
+            <div class="flex no-margin">
+                <p>the Brooklyn bridge</p> 
+                <div class="img brooklynbridge" title="Brooklyn Bridge"></div>
+            </div>
+            <p>
+                and the Rockefeller Center, and the 9/11 memorial, and all the very touristic but still awesome places 
                 of New York. I didn't exactly visit the other boroughs, as Manhattan had plenty to offer, and I wasn't planning
                 on trying to visit everything anyway.
             </p>
@@ -74,7 +91,10 @@
                 close to Times Square, but the party vibe could be felt everywhere, and that was awesome. 
             </p>
         </div>
-        <div class="img nymetro" title="New York metro"></div>      
+        <div class="flex spaceAround">
+            <div class="img nymetro" title="New York metro"></div>
+            <p class="hideMobile">New York metro</p>
+        </div>        
     </section>
     <section>
         <h2>Why did I do that trip</h2>
@@ -101,7 +121,10 @@
                 foreigners.
             </p> 
         </div>
-        <div class="img grandcentral" title="Grand Central terminal"></div>   
+        <div class="flex spaceAround">
+            <p class="hideMobile">Grand Central terminal</p>
+            <div class="img grandcentral" title="Grand Central terminal"></div>
+        </div>
     </section>
 </body>
 </html>

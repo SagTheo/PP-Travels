@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Italy</title>
+    <link rel="stylesheet" href="italy.css">
     <link rel="stylesheet" href="styles-pages.css">
 </head>
 <body>
@@ -17,15 +18,15 @@
                 <img src="frflag.png" alt="Version française" title="Version française">
             </a> 
         </div>
-    </header>
+    </header> 
     <section>
         <h2>When was it</h2>
-        <div>
+        <div class="flex">
             <p>I travelled to Italy, Florence to be exact, on September 1st, 2021. I came back to France three months
-               after, on November 30th.
+            after, on November 30th.
             </p>
+            <div class="img florence" title="Florence"></div>    
         </div>
-        <div class="img florence" title="Florence"></div>
     </section>
     <section>
         <h2>What did I do there</h2>
@@ -45,11 +46,28 @@
             </p>
             <p>Lucky enough, Florence is pretty well positioned geografically, which allowed me to take the train
                 a few times and in a matter of two hours roughly, I would be in another city. That is how I managed to
-                visit Genoa, <div class="img genoa" title="Genoa"></div>
-                Rome obviously, <div class="img rome" title="Rome"></div> 
-                Venice <div class="img venice" title="Venice"></div> 
-                and also le Cinque Terre, <div class="img monterosso" title="Cinque Terre"></div> 
-                where I went on an unintended hike that
+                visit: 
+            </p>
+            <div class="flex">
+                <p class="badge">Genoa</p>
+                <div class="img genoa" title="Genoa"></div>
+            </div> 
+            <div class="flex">
+                <div class="img rome desktop" title="Rome"></div>
+                <p class="badge">Rome</p>
+                <div class="img rome no-desktop" title="Rome"></div>
+            </div>   
+            <div class="flex">
+                <p class="badge">Venice</p>
+                <div class="img venice" title="Venice"></div>
+            </div>    
+            <div class="flex">
+                <div class="img monterosso desktop" title="Cinque Terre"></div>
+                <p class="badge cinqueterre">le Cinque Terre</p>
+                <div class="img monterosso no-desktop" title="Cinque Terre"></div>
+            </div>   
+            <p>   
+                That last place is where I went on an unintended hike that
                 led to an amazing view over the sea. 
                 I really enjoyed that about Italy, it was easy to go on one-day trips, which I counted as mini-adventures.
                 The city is also suited to nice bike rides and walks. For example, I got to go to Fiesole, a village

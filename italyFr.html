@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Italie</title>
+    <link rel="stylesheet" href="italy.css">
     <link rel="stylesheet" href="styles-pages.css">
 </head>
 <body>
@@ -20,12 +21,12 @@
     </header>
     <section>
         <h2>A quelle période ?</h2>
-        <div>
+        <div class="flex">
             <p>J'ai voyagé en Italie, à Florence pour être précis, le 1er septembre 2021. Je suis revenu en France trois 
                 mois plus tard, le 30 novembre.
             </p>
+            <div class="img florence" title="Florence"></div>
         </div>
-        <div class="img florence" title="Florence"></div>
     </section>
     <section>
         <h2>Ce que j'ai fait pendant ce voyage</h2>
@@ -46,11 +47,37 @@
             <p>Fort heureusement, Florence est plutôt bien positionnée géographiquement, ce qui m'a permis de prendre 
                 le train plusieurs fois et en l'espace de deux heures environ, j'étais dans une autre ville. 
                 C'est ainsi que j'ai 
-                pu visiter Gênes, <div class="img genoa" title="Genoa"></div>
-                Rome bien sûr, <div class="img rome" title="Rome"></div> 
-                Venise <div class="img venice" title="Venice"></div> 
-                et aussi les Cinqs Terres, <div class="img monterosso" title="Cinque Terre"></div> 
-                où j'ai entrepris une randonnée imprévue qui m'a conduit à une vue époustouflante sur la mer. 
+                pu visiter:
+            </p> 
+            <div class="flex">
+                <p class="badge">
+                    Gênes
+                </p>
+                <div class="img genoa" title="Genoa"></div>
+            </div>
+            <div class="flex">
+                <div class="img rome desktop" title="Rome"></div>
+                <p class="badge">
+                    Rome
+                </p>
+                <div class="img rome no-desktop" title="Rome"></div>
+            </div>
+            <div class="flex">
+                <p class="badge">
+                    Venise
+                </p>
+                <div class="img venice" title="Venice"></div>
+            </div>
+            <div class="flex">
+                <div class="img monterosso desktop" title="Cinque Terre"></div>
+                <p class="badge cinqueterre">
+                    les Cinqs Terres 
+                </p>
+                <div class="img monterosso no-desktop" title="Cinque Terre"></div>
+            </div>    
+            <p>
+                Ce dernier endroit est là où j'ai entrepris une randonnée imprévue qui m'a conduit 
+                à une vue époustouflante sur la mer. 
                 J'ai beaucoup apprécié cet aspect de l'Italie, il était facile de faire des voyages d'un jour, que je 
                 comptais comme des mini-aventures. 
                 La ville est aussi adaptée pour les balades en vélo et les promenades à pied. Par exemple, j'ai pu aller 

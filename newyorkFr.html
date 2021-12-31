@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New York</title>
+    <link rel="stylesheet" href="newyork.css">
     <link rel="stylesheet" href="styles-pages.css">
 </head>
 <body>
@@ -29,14 +30,17 @@
     <section>
         <h2>Ce que j'ai fait pendant ce voyage</h2>
         <div>
-            <p>J'ai passé cinq mois à New York sur un campus international, pour étudier l'anglais. J'ai organisé ce 
+            <div class="flex">
+                <p>J'ai passé cinq mois à New York sur un campus international, pour étudier l'anglais. J'ai organisé ce 
                 voyage grâce à une agence, EF(Education First), qui se spécialise dans l'envoi de personnes à l'étranger 
                 pour apprendre une autre langue. Pour être honnête, je n'avais pas réellement besoin de leçons d'anglais 
                 sachant que mon niveau s'était déjà réellement amélioré après avoir passé un an dans un pays anglophone, 
                 même s'il pouvait être meilleur bien sûr(et il peut toujours l'être). Cependant, c'était un moyen pour moi 
                 de rester aux Etats-Unis pour un moment sans aucun soucis.
-            </p>
-            <div class="img nycampus" title="Tarrytown"></div>
+                </p>
+                <div class="img nycampus" title="Tarrytown"></div>
+            </div>
+            
             <p>J'avais donc des leçons quotidiennes, du lundi au vendredi, chacunne traitant de sujets différents. Il y en 
                 avait une à propos des crimes et la psychologie par exemple, une autre à propos de la culture New Yorkaise, 
                 une où l'on discutait d'un sujet donné pendant une heure etc. J'avais également un professeur principal, 
@@ -56,11 +60,22 @@
                 C'était aussi l'endroit où les fêtes organisées par le campus prenaient place.
             </p>
             <p>Et bien sûr, j'ai visité New York. Le campus était en fait situé à Tarrytown, mais la ville qui ne dort 
-                jamais n'était qu'à quelques stations de trains de là. J'ai pu voir la Statue de la Liberté, 
-                <div class="img statueofliberty" title="Statue of Liberty"></div>
-                la place Rockefeller, Times Square évidemment, <div class="img timessquare" title="Times Square"></div>
-                le pont de Brooklyn, <div class="img brooklynbridge" title="Brooklyn Bridge"></div>
-                le mémorial du 11 septembre, et toutes les attractions très touristiques, mais incroyables, de New York. 
+                jamais n'était qu'à quelques stations de trains de là.
+            </p>
+            <div class="flex no-margin">
+                <p>J'ai pu voir la Statue de la Liberté</p>
+                <div class="img statueofliberty" title="Statue of Liberty"></div>                
+            </div>     
+            <div class="flex no-margin">
+                <p>Times Square évidemment</p>
+                <div class="img timessquare" title="Times Square"></div>
+            </div>
+            <div class="flex no-margin">
+                <p>le pont de Brooklyn</p>
+                <div class="img brooklynbridge" title="Brooklyn Bridge"></div>
+            </div>
+            <p>
+                et la place Rockefeller, et le mémorial du 11 septembre, et toutes les attractions très touristiques, mais incroyables, de New York. 
                 Je n'ai pas vraiment visité les autres quartiers(Queens, Bronx etc.), du fait que Manhattant avait 
                 énormément à offrir, et je ne comptais pas tout visiter dans tous les cas.
             </p>
@@ -78,7 +93,10 @@
                 dans une boîte de nuit près de Times Square, mais l'ambiance de fête pouvait se faire sentir partout.
             </p>
         </div>
-        <div class="img nymetro" title="New York metro"></div>      
+        <div class="flex spaceAround">
+            <div class="img nymetro" title="New York metro"></div>  
+            <p class="hideMobile">Métro new-yorkais</p>            
+        </div>
     </section>
     <section>
         <h2>Pourquoi est-ce que j'ai fait ce voyage ?</h2>
@@ -106,7 +124,10 @@
                 avoir une conversation qui pourrait aboutir à une amitié pour la vie avec des étrangers.
             </p> 
         </div>
-        <div class="img grandcentral" title="Grand Central terminal"></div>   
+        <div class="flex spaceAround">
+            <p class="hideMobile">Gare Grand Central</p>
+            <div class="img grandcentral" title="Grand Central terminal"></div>            
+        </div>
     </section>
 </body>
 </html>

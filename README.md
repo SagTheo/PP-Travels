@@ -20,7 +20,11 @@ To do:
     -start mobile first and move on to desktop
 
 --> Make toggle buttons more obvious by adding description next to them - done
---> Reorganise layout of pages for desktop versions
+--> Reorganise layout of pages for desktop versions - done
+        -> fix padding and margins for each paragraph and div with picture
+        -> fix width of pictures
+        -> hide/display divs with picture depending on screen size
+        -> apply all of the above for each page
 
 Difficulties encountered:
 

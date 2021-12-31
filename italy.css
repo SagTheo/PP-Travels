@@ -1,3 +1,7 @@
+.desktop {
+    display: none;
+}
+
 /* Pictures */
 
 .florence {
@@ -18,4 +22,63 @@
 
 .venice {
     background-image: url('images-italy/venice.jpg');
+}
+
+/* Responsiveness */
+
+@media (min-width: 769px) {
+    .flex {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .flex .img {
+        width: 40%;
+    }
+
+    .desktop {
+        display: block;
+    }
+
+    .no-desktop {
+        display: none;
+    }
+
+    .flex .florence {
+        width: 60%;
+    }
+
+    .flex .badge {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-block: 1.2rem;
+        width: 18%;
+        border: 1rem solid rgb(226, 199, 42);
+        background-color: rgb(199, 23, 23);
+        color: white;
+        border-radius: 50%;
+        font-size: xx-large;
+    }
+}
+
+@media (min-width: 1025px) {
+    .flex .img {
+        width: 30%;
+    }
+
+    .flex .florence {
+        width: 45%;
+    }
+
+    .flex .badge {
+        margin-block: 0.6rem;
+        width: 15%;
+        font-size: xx-large;
+    }
+
+    .flex .cinqueterre {
+        margin-block: 0.4rem;
+        padding-left: 1rem;
+    }
 }

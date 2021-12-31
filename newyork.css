@@ -61,10 +61,32 @@
     }
 
     .flex .nycampus {
-        width: 230%;
+        width: 250%;
     }
 
     .flex .statueofliberty, .flex .timessquare, .flex .nymetro, .flex .grandcentral, .flex .brooklynbridge {
         width: 40%;
+    }
+
+    .no-margin p, .no-margin div {
+        margin-top: 0;
+    }
+
+    .no-margin p {
+        margin-right: 5px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .hideMobile {
+        margin-top: 6%;
+    }
+
+    .flex .nycampus {
+        width: 110%;
+    }
+
+    .flex .statueofliberty, .flex .timessquare, .flex .nymetro, .flex .grandcentral, .flex .brooklynbridge {
+        width: 30%;
     }
 }
